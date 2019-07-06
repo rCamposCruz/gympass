@@ -34,7 +34,7 @@ class Processor
 	end
 
 	def get_piloto(name)
-		if @nomes != nil then
+		if @nomes != nil && @nomes[name] != nil then
 			return @pilotos[@nomes[name]]
 		end
 
