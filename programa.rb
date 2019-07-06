@@ -8,12 +8,14 @@ count = 0
 
 File.open(file).each do |line|
 	if line != "" && count != 0 then
-		lines = "#{lines};#{line}"
+		if count == 1 then
+			lines = line
+		else
+			lines = "#{lines};#{line}"
+		end
 	end
 	count = count + 1
 end
-
-puts lines
 
 p = Processor.new(lines)
 
