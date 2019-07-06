@@ -1,0 +1,15 @@
+O programa funciona de forma bem simples e foi compilado com ruby 2.3.3p222.
+
+Para roda-lo basta instalar a gema contida neste repo, e rodar o arquivo "programa.rb" da seguinte forma:
+
+ruby programa.rb dados
+
+Resultado: gera o leaderboard
+
+ruby programa.rb bestlaps
+
+Resultado: Mostra o nome dos corredores e suas melhores voltas e tempos.
+
+ruby programa.rb avg_speeds
+
+Resultado: Mostra o nome dos corredores e suas velocidades médias.
