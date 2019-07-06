@@ -17,7 +17,7 @@ class Processor
 
 		p_number = p_number.to_i
 
-		p = get_piloto(p_number)
+		p = get_piloto(p_name)
 
 		if p == nil then
 			p = Piloto.new(p_name)
